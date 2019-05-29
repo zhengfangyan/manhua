@@ -35,7 +35,7 @@ server.use(bodyparser.urlencoded({extended:false}));
  // 1.将轮播保存在服务器端public/Image
  // 2.接收客户端发送请求，/imglist
  //Index数据
-  server.get("/imglist",(req,res)=>{
+  server.get("#/imglist",(req,res)=>{
   // 3.创建数据发送客户
     var sql="SELECT cid,title,img FROM ct_index_carousel";
     pool.query(sql,(err,result)=>{
