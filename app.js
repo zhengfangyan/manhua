@@ -23,7 +23,7 @@ server.use(session({
  //origin允许访问的地址
  server.use(cors({origin:["http://127.0.0.1:8080","http://localhost:8080"],credentials:true}))
  //5:绑定监听端口 3000
- server.listen(3000,function(){
+ server.listen(5050,function(){
   console.log("服务器启动")
 });
 //使用body-parser中间件
